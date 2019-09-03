@@ -10,6 +10,7 @@
     <packaging>war</packaging>
     <name>Alfresco Share WAR</name>
     <description>Alfresco Share</description>
+    <version>6.1.0.2-FIX-HTTPS</version>
 
     <properties>
         <tomcat.version>7.0.86</tomcat.version>
@@ -32,7 +33,7 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>alfresco-web-framework-commons</artifactId>
-            <version>${project.version}</version>
+            <version>6.1.0.2</version>
             <classifier>classes</classifier>
         </dependency>
         <dependency>
@@ -180,7 +181,7 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>alfresco-web-framework-commons</artifactId>
-            <version>${project.version}</version>
+            <version>6.1.0.2</version>
             <type>war</type>
             <optional>true</optional>
             <!-- MNT-10118 -->
@@ -352,7 +353,7 @@
                                     <alfresco-core>${dependency.alfresco-core.version}</alfresco-core>
                                     <alfresco-jlan>${dependency.alfresco-jlan.version}</alfresco-jlan>
                                     <spring>${dependency.spring.version}</spring>
-                                    <surf>${project.version}</surf>
+                                    <surf>6.1.0.2</surf>
                                     <aikau>${dependency.aikau.version}</aikau>
                                     <webscripts>${dependency.webscripts.version}</webscripts>
                                     <yui>${dependency.yui.version}</yui>
